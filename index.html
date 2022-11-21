@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!--font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--fontawesome-->
+    <script
+      src="https://kit.fontawesome.com/f5fc187454.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Hello, world!</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <style>
+      nav.navbar {
+        z-index: 99;
+      }
+    </style>
+  </head>
+  <body class="">
+    <div class="container-fluid">
+      <!--Nav Section-->
+      <section class="nav">
+        <div class="row">
+          <div class="col">
+            <nav
+              class="navbar navbar-expand-lg bg-white position-fixed w-100 m-0 start-0 top-0"
+            >
+              <!-- Navbar content -->
+              <div class="container-fluid">
+                <a class="navbar-brand" href="./index.html">GOOGLE</a>
+
+                <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarNavDropdown"
+                  aria-controls="navbarNavDropdown"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a
+                        class="nav-link active"
+                        aria-current="page"
+                        href="index.html"
+                        >About</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="product.html">Products</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a
+                        class="nav-link dropdown-toggle"
+                        href="#"
+                        id="navbarDropdownMenuLink"
+                        role="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                        Dropdown link
+                      </a>
+                      <ul
+                        class="dropdown-menu"
+                        aria-labelledby="navbarDropdownMenuLink"
+                      >
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li>
+                          <a class="dropdown-item" href="#">Another action</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"
+                            >Something else here</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <!--/Navbar content-->
+            </nav>
+          </div>
+        </div>
+      </section>
+      <!--/Nav Section-->
+      <!--Main Section-->
+      <section class="main">
+        <div class="row">
+          <header class="col-md-8 mx-auto mt-5 main-header">
+            <h1
+              class="text-center mx-auto my-auto"
+              style="font-family: 'Open Sans', sans-serif"
+            >
+              Our mission is to <span class="text-primary">organize</span> the
+              world’s <span class="text-danger">information</span> and make it
+              <span class="text-success">universally accessible</span> and
+              <span class="text-warning">useful</span>.
+            </h1>
+          </header>
+        </div>
+
+        <div class="row">
+          <div class="col-md-10 bg-primary my-0 mx-auto bg-info bg-img rounded">
+            <div class="bg-img-text">
+              <p>How we're talking climate</p>
+              <p>change action through our</p>
+              <p>products and partnerships</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mt-5">
+          <div class="col co-news-wrapper">
+            <div class="co-news-header text-center fs-2 border py-2">
+              Company news
+            </div>
+            <div class="co-news-content">
+              <!--#co-news-carousel-->
+              <div
+                id="co-news-carousel"
+                class="carousel"
+                data-bs-ride="carousel"
+              >
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div
+                      class="card"
+                      style="width: 301px; padding: 14px; border: none"
+                    >
+                      <div
+                        style="
+                          width: 273px;
+                          height: 185px;
+                          border: 1px solid red;
+                          overflow: hidden;
+                        "
+                      >
+                        <img
+                          src="https://about.google/assets/img/blog-fallback-2.svg"
+                          class="card-img-top"
+                          style="transform: scale(1.5)"
+                          alt="..."
+                        />
+                      </div>
+                      <div class="card-body p-0">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">
+                          Some quick example text to build on the card title and
+                          make up the bulk of the card's content.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div
+                      class="card"
+                      style="width: 301px; padding: 14px; border: none"
+                    >
+                      <img
+                        src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/PXL_20220731_122423952.max-600x600.jpg"
+                        class="card-img-top"
+                        width="273"
+                        height="185"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">
+                          Some quick example text to build on the card title and
+                          make up the bulk of the card's content.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div
+                      class="card"
+                      style="width: 301px; padding: 14px; border: none"
+                    >
+                      <img
+                        src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/PXL_20220731_122423952.max-600x600.jpg"
+                        class="card-img-top"
+                        width="273"
+                        height="185"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">
+                          Some quick example text to build on the card title and
+                          make up the bulk of the card's content.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div
+                      class="card"
+                      style="width: 301px; padding: 14px; border: none"
+                    >
+                      <img
+                        src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/PXL_20220731_122423952.max-600x600.jpg"
+                        class="card-img-top"
+                        width="273"
+                        height="185"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">
+                          Some quick example text to build on the card title and
+                          make up the bulk of the card's content.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div
+                      class="card"
+                      style="width: 301px; padding: 14px; border: none"
+                    >
+                      <img
+                        src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/PXL_20220731_122423952.max-600x600.jpg"
+                        class="card-img-top"
+                        width="273"
+                        height="185"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">
+                          Some quick example text to build on the card title and
+                          make up the bulk of the card's content.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div
+                      class="card"
+                      style="width: 301px; padding: 14px; border: none"
+                    >
+                      <img
+                        src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/PXL_20220731_122423952.max-600x600.jpg"
+                        class="card-img-top"
+                        width="273"
+                        height="185"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">
+                          Some quick example text to build on the card title and
+                          make up the bulk of the card's content.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#co-news-carousel"
+                  data-bs-slide="prev"
+                >
+                  <!-- <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span> -->
+                  <i class="fa-solid fa-angle-left lr-icon"></i>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#co-news-carousel"
+                  data-bs-slide="next"
+                >
+                  <!-- <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span> -->
+                  <i class="fa-solid fa-angle-right lr-icon"></i>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div
+            class="col-md-10 bg-black mx-auto our-product bg-our-product rounded-1"
+          >
+            <div class="bg-img-text text-black">
+              <p class="fs-6 text-black-50">OUR PRODUCTS</p>
+              <p>Make life easier with a little</p>
+              <p>help from products</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-10 mx-auto bg-info bg-our-commit rounded">
+            <div class="bg-img-text">
+              <p class="fs-6 text-white-50">OUR COMMITMENTS</p>
+              <p>Dedicated to improving</p>
+              <p>people's lives.As true today</p>
+              <p>as it was at the start.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--/Main Section-->
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"></script>
+
+    <script src="js/script.js"></script>
+    <script>
+      $(document).ready(() => {
+        navPopup();
+        //////////////
+
+        const carouselWidth = $(".carousel-inner")[0].scrollWidth - 20;
+        const cardWidth = $(".carousel-item").width();
+        console.log(carouselWidth, cardWidth);
+
+        let scrollPosition = 0;
+
+        $(".carousel-control-next").on("click", function () {
+          setBorder(this);
+          if (scrollPosition < carouselWidth - cardWidth * 4) {
+            //check if you can go any further
+            scrollPosition += cardWidth; //update scroll position
+
+            $(".carousel-inner").animate({ scrollLeft: scrollPosition }, 600); //scroll left
+          }
+        });
+
+        $(".carousel-control-prev").on("click", function () {
+          setBorder(this);
+
+          if (scrollPosition > 0) {
+            scrollPosition -= cardWidth;
+            $(".carousel-inner").animate({ scrollLeft: scrollPosition }, 600);
+          }
+        });
+
+        //////////////
+      });
+    </script>
+  </body>
+</html>

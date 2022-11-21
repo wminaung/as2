@@ -1,0 +1,21 @@
+.main h1 {
+  font-size: 110px;
+}
+.main .h1-after {
+  font-size: 110px;
+
+  text-align: right;
+}
+.main .h1 {
+  word-spacing: -10px;
+  letter-spacing: -4px;
+  font-weight: 400;
+}
+
+.h1-card .card {
+  flex: 0 0 25%;
+}
+
+.l-p-n .card {
+  border: none;
+}

@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>about</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <style>
+      .carousel-inner {
+        display: flex;
+      }
+      .carousel-item {
+        margin-right: 0;
+        flex: 0 0 25%;
+        display: block;
+      }
+      button.carousel-control-next,
+      button.carousel-control-prev {
+        width: 65px;
+        height: 65px;
+        border-radius: 50%;
+        margin: auto 0;
+        background-color: rgba(212, 190, 190, 0.829);
+        border: 1px solid rgba(0, 0, 0, 0.87);
+        font: bolder;
+      }
+      .card {
+        margin: 0 auto;
+      }
+
+      button.carousel-control-next:hover,
+      button.carousel-control-prev:hover {
+        box-shadow: -2px 8px 14px 1px black;
+      }
+    </style>
+  </head>
+  <body class="">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col">
+          <div id="winCarousel" class="carousel" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div
+                  class="card"
+                  style="width: 301px; padding: 14px; border: none"
+                >
+                  <img
+                    src="image/food.jpg"
+                    class="card-img-top"
+                    width="273"
+                    height="185"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div
+                  class="card"
+                  style="width: 301px; padding: 14px; border: none"
+                >
+                  <img
+                    src="image/food1.jpg"
+                    class="card-img-top"
+                    width="273"
+                    height="185"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div
+                  class="card"
+                  style="width: 301px; padding: 14px; border: none"
+                >
+                  <img
+                    src="image/food2.jpg"
+                    class="card-img-top"
+                    width="273"
+                    height="185"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <div
+                  class="card"
+                  style="width: 301px; padding: 14px; border: none"
+                >
+                  <img
+                    src="image/food.jpg"
+                    class="card-img-top"
+                    width="273"
+                    height="185"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div
+                  class="card"
+                  style="width: 301px; padding: 14px; border: none"
+                >
+                  <img
+                    src="image/food1.jpg"
+                    class="card-img-top"
+                    width="273"
+                    height="185"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div
+                  class="card"
+                  style="width: 301px; padding: 14px; border: none"
+                >
+                  <img
+                    src="image/food2.jpg"
+                    class="card-img-top"
+                    width="273"
+                    height="185"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#winCarousel"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#winCarousel"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"></script>
+
+    <script>
+      var carouselWidth = $(".carousel-inner")[0].scrollWidth;
+      const cardWidth = $(".carousel-item").width();
+      console.log(carouselWidth, cardWidth);
+
+      let scrollPosition = 0;
+
+      $(".carousel-control-next").on("click", function () {
+        if (scrollPosition < carouselWidth - cardWidth * 4) {
+          //check if you can go any further
+          scrollPosition += cardWidth; //update scroll position
+          $(".carousel-inner").animate({ scrollLeft: scrollPosition }, 600); //scroll left
+        }
+      });
+
+      $(".carousel-control-prev").on("click", function () {
+        if (scrollPosition > 0) {
+          scrollPosition -= cardWidth;
+          $(".carousel-inner").animate({ scrollLeft: scrollPosition }, 600);
+        }
+      });
+    </script>
+  </body>
+</html>
