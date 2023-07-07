@@ -77,6 +77,9 @@
                       <a class="nav-link" href="/error.html">Stories</a>
                     </li>
                   </ul>
+                  <div class="navbar-nav">
+                    <span class="badge bg-secondary" id="userEmail"> </span>
+                  </div>
                 </div>
               </div>
               <!--/Navbar content-->
@@ -318,7 +321,9 @@
       <footer
         class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
       >
-        <p class="col-md-4 mb-0 text-muted">&copy; 2022 Win Min Aung</p>
+        <p class="col-md-4 mb-0 text-muted">
+          &copy; <span id="copyright">2022 Win Min Aung</span>
+        </p>
 
         <a
           href="/"
@@ -361,7 +366,6 @@
 
         const carouselWidth = $(".carousel-inner")[0].scrollWidth - 20;
         const cardWidth = $(".carousel-item").width();
-        console.log(carouselWidth, cardWidth);
 
         let scrollPosition = 0;
 
@@ -386,6 +390,15 @@
 
         //////////////
       });
+    </script>
+    <script>
+      const isLogin = window.localStorage.getItem("loginUser");
+      if (!isLogin) {
+        location.href = "/login.html";
+      } else {
+        const loginUser = JSON.parse(isLogin);
+        document.getElementById("userEmail").textContent = loginUser.email;
+      }
     </script>
   </body>
 </html>

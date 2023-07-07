@@ -12,7 +12,6 @@ function navPopup() {
       popup = false;
     }
     scroll = window.scrollY;
-    console.log(popup);
 
     if (!popup) {
       $("nav.navbar").slideUp();
@@ -29,3 +28,10 @@ const setBorder = (btn) => {
     $(".carousel-control-next").css("border", "none");
   }
 };
+
+const copyrightTag = document.getElementById("copyright");
+
+const fullYear = new Date().getFullYear();
+const fullName = "Win Min Aung";
+
+copyrightTag.textContent = ` ${fullYear} ${fullName}`;
